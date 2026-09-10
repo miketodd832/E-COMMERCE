@@ -19,13 +19,14 @@ img {
 }
 
 .nav__container {
-  max-width: 1200px;
-  display: flex;
   width: 100%;
+  max-width: 1200px;
   padding: 0 24px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .purple {
@@ -71,7 +72,7 @@ li {
 }
 
 header {
-  height: calc(100vh - 80px);
+  height: calc (100vh - 80);
 }
 
 .header__container {
@@ -88,8 +89,9 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3em;
+  margin-bottom: 10em;
 }
-
 
 h1 {
   font-size: 56px;
