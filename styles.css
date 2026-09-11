@@ -35,7 +35,6 @@ p {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 0 24px;
 }
 
 .purple {
@@ -124,6 +123,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-top: 3em;
+  padding-bottom: 8em;
 }
 
 .header__description {
