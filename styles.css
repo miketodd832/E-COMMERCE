@@ -99,8 +99,8 @@ button {
   cursor: pointer;
 }
 
-button:active {
-  transform: translate(3px);
+.btn:active {
+  transform: translateY(3px);
 }
 
 .btn {
@@ -157,7 +157,6 @@ HIGHLIGHTS
 
 #highlights {
   position: relative;
-  max-width: 100vw;
 }
 
 #highlights:before {
