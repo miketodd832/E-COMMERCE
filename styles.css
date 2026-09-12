@@ -148,6 +148,12 @@ header {
   margin: 0 auto;
 }
 
+.row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*
 
 HIGHLIGHTS
@@ -291,4 +297,8 @@ RECENT
 }
 
 
+/*
 
+EXPLORE BOOKS
+
+*/
