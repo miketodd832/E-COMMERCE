@@ -1,7 +1,7 @@
-function openmenu() {
-  document.body.classlist += " menu--open"
+function openMenu() {
+  document.body.classList.add('menu--open')
 }
 
-function closemenu() {
-  document.body.classlist.remove('menu--open') 
+function closeMenu() {
+  document.body.classList.remove('menu--open') 
 }
