@@ -121,7 +121,6 @@ button {
   font-size: 20px;
   border-radius: 4px;
   border: none;
-  margin-bottom: 30px;
 }
 
 header {
@@ -156,7 +155,7 @@ header {
   padding: 56px 0;
 }
 
-.row{
+.row {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -326,7 +325,7 @@ EXPLORE BOOKS
   align-items: center;
   text-align: center;
   font-size: 32px;
-  
+  padding-bottom: 56px;
 }
 
 .explore__books--title{
@@ -334,3 +333,22 @@ EXPLORE BOOKS
   margin-bottom: 25px;
 }
 
+/*
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #242424;
+}
+
+.footer__logo--img {
+  width: 160px;
+  filter: grayscale(1) invert(1);
+}
+
+.footer__link,
+.footer__copyright {
+  color: #fff
+}
