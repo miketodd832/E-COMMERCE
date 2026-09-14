@@ -39,11 +39,12 @@ a:hover {
 }
 
 .nav__container {
-  width: 100%;
-  max-width: 1200px;
   display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
   align-items: center;
   margin: 0 auto;
+  padding: 0 24px;
 }
 
 .purple {
@@ -52,6 +53,7 @@ a:hover {
 
 .logo {
   width: 160px;
+
 }
 
 ul {
@@ -84,7 +86,10 @@ li {
 }
 
 .nav__links {
-  margin-right: 50px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-grow: 1;
 }
 
 .btn__menu {
