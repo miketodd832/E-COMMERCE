@@ -85,32 +85,37 @@ li {
   text-decoration: none;
 }
 
+.nav__links {
+  margin-right: 20px;
+}
+
 .btn__menu {
   background-color: transparent;
   font-size: 40px;
   text-align: center;
   border: none;
   color:#7342d6;
-  display: none;
+  display: flex;
 }
 
 .menu__backdrop {
   position: absolute;
   background-color: #242424;
   top: 0;
-  left: 0;
+  left: -100%;
   right: 0;
   bottom: 0;
   z-index: 100;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition:opacity  300ms ease;
+  transition: 600ms ease;
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
 }
 
 .menu--open .menu__backdrop {
+  transform: translateX(100%);
   visibility: visible;
   opacity: 1;
 }
@@ -118,7 +123,7 @@ li {
 .menu__links {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
 }
 
 .menu__list {
@@ -438,8 +443,9 @@ footer {
   .nav__links {
     display: none;
   }
-}
 
-.btn__menu {
-  display: block;
+
+  .btn__menu {
+   display: flex;
+  }
 }
