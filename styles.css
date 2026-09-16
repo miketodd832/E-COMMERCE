@@ -428,8 +428,14 @@ FOOTER
 
 */
 
+
+
 footer {
   background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 auto;
 }
 
 .footer__logo--img {
