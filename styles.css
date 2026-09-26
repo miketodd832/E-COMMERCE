@@ -240,10 +240,6 @@ header {
   z-index: 2;
 }
 
-.container {
-  padding: 56px;
-}
-
 .row {
   width: 100%;
   max-width: 1200px;
@@ -343,6 +339,8 @@ FEATURES
 .books {
   display:flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .book {
@@ -402,6 +400,7 @@ RECENT
   margin-top: 35px;
   text-align: center;
 }
+
 
 
 /*
@@ -483,10 +482,14 @@ footer {
     font-size: 18px;
   }
 
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .book {
     width: 50%;
-    max-width: 300px;
-    min-width: 250px;
   }
 }
 
@@ -521,5 +524,10 @@ footer {
 
   .header__img--wrapper {
     padding-top: 110px;
+  }
+
+  .books{
+    display: flex;
+    justify-content: center;
   }
 }
