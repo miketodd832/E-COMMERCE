@@ -241,7 +241,7 @@ header {
 }
 
 .container {
-  padding: 56px 0;
+  padding: 56px;
 }
 
 .row {
@@ -485,6 +485,8 @@ footer {
 
   .book {
     width: 50%;
+    max-width: 300px;
+    min-width: 250px;
   }
 }
 
