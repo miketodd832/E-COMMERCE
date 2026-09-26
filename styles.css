@@ -342,6 +342,7 @@ FEATURES
 
 .books {
   display:flex;
+  flex-wrap: wrap;
 }
 
 .book {
@@ -484,10 +485,6 @@ footer {
 
   .book {
     width: 50%;
-  }
-
-  .book : (last--child){
-   margin-right: 20px;
   }
 }
 
